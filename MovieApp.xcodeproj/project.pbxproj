@@ -6,13 +6,41 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		E16FF7B42F52C1D0006B6E4C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E16FF7B32F52C1C4006B6E4C /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		E19069162F4581CC00B76E29 /* MovieApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E16FF7B32F52C1C4006B6E4C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E18EF1C12F49960500EC8AA0 /* MovieApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E15467372F502EF500118D19 /* Exceptions for "MovieApp" folder in "MovieApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = E19069152F4581CC00B76E29 /* MovieApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		E134A74E2F48F6AA0039E1E7 /* Models */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E18EF1E12F49974900EC8AA0 /* Network */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Network;
+			sourceTree = "<group>";
+		};
 		E19069182F4581CC00B76E29 /* MovieApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E15467372F502EF500118D19 /* Exceptions for "MovieApp" folder in "MovieApp" target */,
+			);
 			path = MovieApp;
 			sourceTree = "<group>";
 		};
@@ -33,16 +61,11 @@
 			isa = PBXGroup;
 			children = (
 				E19069182F4581CC00B76E29 /* MovieApp */,
-				E19069172F4581CC00B76E29 /* Products */,
+				E134A74E2F48F6AA0039E1E7 /* Models */,
+				E18EF1C12F49960500EC8AA0 /* MovieApp.app */,
+				E18EF1E12F49974900EC8AA0 /* Network */,
+				E16FF7B32F52C1C4006B6E4C /* README.md */,
 			);
-			sourceTree = "<group>";
-		};
-		E19069172F4581CC00B76E29 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E19069162F4581CC00B76E29 /* MovieApp.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -61,13 +84,15 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				E134A74E2F48F6AA0039E1E7 /* Models */,
+				E18EF1E12F49974900EC8AA0 /* Network */,
 				E19069182F4581CC00B76E29 /* MovieApp */,
 			);
 			name = MovieApp;
 			packageProductDependencies = (
 			);
 			productName = MovieApp;
-			productReference = E19069162F4581CC00B76E29 /* MovieApp.app */;
+			productReference = E18EF1C12F49960500EC8AA0 /* MovieApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -95,7 +120,7 @@
 			mainGroup = E190690D2F4581CC00B76E29;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = E19069172F4581CC00B76E29 /* Products */;
+			productRefGroup = E190690D2F4581CC00B76E29;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -109,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E16FF7B42F52C1D0006B6E4C /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,9 +279,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = BBRNPRS6UZ;
+				DEVELOPMENT_TEAM = GWMH6J3W52;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MovieApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -266,7 +293,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.MovieApp.MovieApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ogbodoprojects.MovieApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -281,9 +308,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = BBRNPRS6UZ;
+				DEVELOPMENT_TEAM = GWMH6J3W52;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MovieApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -294,7 +322,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.MovieApp.MovieApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ogbodoprojects.MovieApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
