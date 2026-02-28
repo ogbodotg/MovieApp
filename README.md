@@ -76,4 +76,3 @@ To run the project:
 1. Get your API key from TMDB
 2. Get your YouTube Data API key
 3. Insert them inside your APIConfig file
-
